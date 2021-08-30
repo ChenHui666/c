@@ -4,6 +4,17 @@ int x;
 int y;
 
 int addtwonum(){
+    /* *
+     *  整形变量
+     *  1，基本型：int，在内存中占4个字节
+     *  2，短整量：short int或short
+     *  3，长整型：long int或long 
+     *  4，无符号型：unsigned
+     *  
+     *  有符号和无符号整形进行运算结果为有符号整形
+     *  输出时 %d 为整形
+     * 
+     * */
     //函数内声明变量x和y为外部变量
     extern int x;
     extern int y;
